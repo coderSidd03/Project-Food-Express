@@ -1,0 +1,18 @@
+#carousel-input {
+  padding: 1em;
+  border-radius: 9rem;
+  font-family: "Montserrat", sans-serif;
+  width: 100vh;
+  background-color: rgb(157, 157, 236) !important;
+  box-shadow: 5px 10px 10px rgb(119, 215, 240) !important;
+  font-weight: bold !important;
+}
+
+#carousel-input:hover {
+  /* width: 105vh; */
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+  box-shadow: 7px 12px 12px rgb(157, 157, 236) !important;
+  background-color: rgb(200, 244, 255) !important;
+}
+

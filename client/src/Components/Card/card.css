@@ -1,0 +1,23 @@
+.food-card {
+  width: 18rem;
+  max-height: 450px;
+  gap: 1px;
+}
+.food-card:hover {
+  transition: all 0.2s ease-in;
+  transform: scale(1.1);
+  background-color: rgb(194, 242, 248) !important;
+  
+}
+.card-btn-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-btn:hover{
+  transition: all 0.2s ease-in;
+  transform: scale(1.1);
+  font-weight: bold;
+}

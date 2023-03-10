@@ -1,0 +1,113 @@
+.log-in-container {
+  background-color: rgb(221, 255, 248) !important;
+  display: flex;
+  margin-top: 5rem !important;
+  margin-bottom: 5rem !important;
+  padding: 3rem 3rem 3rem 3rem !important;
+  width: 60% !important;
+  border-radius: 3rem !important;;
+}
+.log-in-container:hover {
+  background-color: rgba(253, 216, 241, 0.911) !important;
+  transition: 0.4s ease-in-out;
+}
+
+.login-form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(253, 216, 241, 0.911);
+  border-radius: 3rem;
+  padding: 2rem;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 1rem;
+}
+.login-form:hover {
+  background-color: rgb(221, 255, 248);
+  transition: 0.5s ease-in-out;
+}
+
+.login-form input {
+  background-color: rgba(253, 216, 241, 0.911);
+  border-radius: 3rem;
+  transition: 0.3s ease-in-out;
+}
+.login-form input:hover {
+  background-color: rgba(255, 250, 254, 0.911);
+  border-radius: 3rem;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.1);
+}
+.log-in-form-label {
+  color: black;
+  font-weight: bold;
+}
+
+.login-text:hover {
+  text-decoration: underline !important;
+  color: rgb(74, 91, 243) !important;
+}
+
+.heading-cont {
+  color: rgb(17, 16, 73);
+  /* gap: 3rem; */
+  font-weight: bold;
+  background-color: rgba(217, 238, 252, 0.911);
+  box-shadow: 5px 5px 5px rgb(245, 106, 173);
+  border-radius: 3rem;
+  width: 20rem;
+  padding: 1rem;
+}
+
+.heading-cont:hover {
+  background-color: rgb(245, 106, 173);
+  box-shadow: 5px 5px 5px rgb(179, 234, 255);
+  color: rgb(179, 234, 255);
+  transition: 0.2s ease-in-out;
+}
+.login-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-lt {
+  height: 70% !important;
+  width: 60% !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.image-lt:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+
+/* ============ MEDIA QUERIES (medium devices) ================ */
+@media screen and (max-width: 1024px) {
+  .log-in-container {
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    /* margin-bottom: 3rem !important; */
+  }
+  .login-form {
+    width: 90%;
+  }
+}
+
+/* ============ MEDIA QUERIES (small devices) ================ */
+@media screen and (max-width: 600px) {
+  .log-in-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100% !important;
+    padding: 2rem 1rem 2rem 1rem !important;
+    gap: 10px;
+    /* margin-bottom: 2rem !important; */
+  }
+  .login-form {
+    width: 100%;
+  }
+}
+

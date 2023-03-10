@@ -1,0 +1,62 @@
+.lower-menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-size: 16px;
+}
+
+
+.scroll__up{
+  background-color: rgb(208, 249, 255) !important;;
+  padding: 0.5rem !important;
+  border-radius: 5rem !important;;
+  color: black !important;
+  margin-right: 1rem !important;;
+}
+
+.scroll__up:hover{
+  background-color: rgb(255, 255, 255) !important;
+  transition: all 0.2s ease-in;
+  box-shadow: 3px 3px 10px red;
+  transform: scale(1.2);
+}
+.lower-link{
+  padding: 9px;
+  color: white !important;;
+  font-size: 17px !important;
+  text-decoration: none !important;;
+}
+.lower-link:hover{
+  padding: 3px;
+  transition: all 0.2s ease-in;
+  box-shadow: 3px 3px 10px red;
+  font-weight: bold;
+  border-radius: 3rem !important;
+}
+
+/* ============ MEDIA QUERIES (medium devices) ================ */
+@media screen and (max-width: 1280px) {
+  .lower-menu{
+    gap: 0.6rem;
+  }
+  .lower-link{
+    font-size: 16px !important;
+  }
+}
+@media screen and (max-width: 820px) {
+  .lower-menu{
+    gap: 5px !important;
+  }
+  .lower-link{
+    font-size: 17px !important;
+  }
+  .footer-lower-div{
+    margin-top: 1rem !important;;
+  }
+}
+
+/* ============ MEDIA QUERIES (small devices) ================ */
+@media screen and (max-width: 670px) {
+
+}

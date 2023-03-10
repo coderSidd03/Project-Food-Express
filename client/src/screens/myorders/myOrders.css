@@ -1,0 +1,19 @@
+
+.down-btn-div{
+  display: flex;
+  justify-content: flex-end;
+}
+.scroll_up{
+  background-color: rgb(208, 249, 255) !important;;
+  padding: 1rem !important;
+  border-radius: 5rem !important;;
+  color: black !important;
+  margin: 4rem !important;;
+  }
+
+.scroll_up:hover{
+  background-color: rgb(255, 255, 255) !important;
+  transition: all 0.2s ease-in;
+  box-shadow: 3px 2px 14px 5px  red;
+  transform: scale(1.2);
+}

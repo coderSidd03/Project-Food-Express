@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;800&display=swap");
+
+.main-div {
+}
+
+.contact-container {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+  background-color: rgb(221, 221, 248);
+  border-radius: 3rem;
+  width: 50%;
+  padding: 1rem;
+  height: 31rem !important;
+  box-shadow: 10px 11px 11px rgb(178, 235, 252) !important;
+}
+.contact-container:hover {
+  background-color: rgb(178, 235, 252);
+  box-shadow: 10px 12px 12px rgb(157, 157, 236) !important;
+  transition: 0.3s ease-in-out;
+}
+
+.contact-form {
+  max-width: 40rem;
+  margin: auto;
+}
+.contact-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  justify-content: center;
+  align-items: center;
+}
+.contact-inputs input {
+  border-radius: 3rem;
+  padding: 10px;
+  text-align: center;
+  width: 85%;
+}
+.contact-inputs input:hover {
+  background-color: rgb(216, 216, 250);
+  transition: 0.3s ease-in-out;
+  color: black;
+  width: 90%;
+}
+.contact-inputs textarea {
+  border-radius: 1rem;
+  padding: 10px;
+  text-align: center;
+  width: 85%;
+}
+.contact-inputs textarea:hover {
+  background-color: rgb(216, 216, 250);
+  transition: 0.3s ease-in-out;
+  color: black;
+  width: 90%;
+}
+
+.contact-btn {
+  width: 40%;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  border-radius: 5rem;
+  height: 3.2rem;
+  color: rgb(5, 44, 59) !important;
+  background-color: rgb(40, 194, 122) !important;
+  font-size: 25px !important;
+}
+
+.contact-btn:hover {
+  background-color: rgb(157, 157, 236) !important;
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  font-weight: bold;
+  transition: 0.2s ease-in;
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px rgb(40, 194, 122) !important;
+}
+
+/* ============ MEDIA QUERIES (medium devices) ================ */
+@media screen and (max-width: 1024px) {
+  .contact-container {
+    width: 70%;
+    box-shadow: 10px 11px 11px rgb(178, 235, 252) !important;
+  }
+}
+
+/* ============ MEDIA QUERIES (small devices) ================ */
+@media screen and (max-width: 670px) {
+  .contact-container {
+    width: 70%;
+    box-shadow: 10px 11px 11px rgb(250, 249, 180) !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .contact-container {
+    width: 90%;
+    box-shadow: 10px 11px 11px rgb(208, 250, 180) !important;
+  }
+}
